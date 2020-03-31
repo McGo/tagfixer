@@ -1,0 +1,23 @@
+{
+    "name": "mcgo/tagfixer",
+    "authors": [
+        {
+            "name": "Mirko Haaser",
+            "email": "kontakt@mirko-haaser.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "McGo\\TagFixer\\": "src/",
+            "McGo\\TagFixer\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "McGo\\TagFixer\\TagFixerServiceProvider"
+            ]
+        }
+    }
+}
